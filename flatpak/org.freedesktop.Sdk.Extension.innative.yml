@@ -42,7 +42,7 @@ modules:
                             - 'mkdir -p /app/innative/{bin,lib}'
                             - 'cp /usr/lib/sdk/innative/bin/innative-cmd /app/innative/bin/innative-cmd'
                             - 'cp /usr/lib/sdk/innative/lib/{innative.a,innative-env.a,innative-env-d.a,innative-test-embedding.a} /app/innative/lib'
-                            - 'cp /usr/lib/sdk/innative/lib/innative/libinnative.so.0.1.4 /app/innative/lib/libinnative.so.0.1.4'
+                            - 'cp /usr/lib/sdk/innative/lib/libinnative.so.0.1.4 /app/innative/lib/libinnative.so.0.1.4'
                             - 'ln -s libinnative.so.0.1.4 /app/innative/lib/libinnative.so'
                     dest-filename: install.sh
                   - type: script
